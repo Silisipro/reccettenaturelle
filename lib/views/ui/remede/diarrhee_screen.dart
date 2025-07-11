@@ -85,7 +85,6 @@ class _DiarrheeScreenState extends State<DiarrheeScreen>
                             MySpacing.height(12),
                              MyText.bodySmall(
                               "Presser le jus de 2 citrons et d’une orange dans un verre et boire",
-                              overflow: TextOverflow.ellipsis,
                               muted: true,
                               textAlign: TextAlign.justify,
                             ),
@@ -110,7 +109,7 @@ class _DiarrheeScreenState extends State<DiarrheeScreen>
                              MySpacing.height(12),
                              MyText.bodySmall(
                               "Faire bouillir 15 grammes de feuille de goyavier dans 1 litre d’eau et boire cette préparation dans la journée fait arrêter la diarrhée.",
-                              overflow: TextOverflow.ellipsis,
+                              
                               muted: true,
                               textAlign: TextAlign.justify,
                             ),
@@ -133,7 +132,7 @@ class _DiarrheeScreenState extends State<DiarrheeScreen>
                              MySpacing.height(12),
                              MyText.bodySmall(
                               "Ecraser le charbon de bois et le mettre dans 1 verre d’eau et boire. Très efficace contre la diarrhée.",
-                              overflow: TextOverflow.ellipsis,
+                            
                               muted: true,
                               textAlign: TextAlign.justify,
                             ),
@@ -146,7 +145,7 @@ class _DiarrheeScreenState extends State<DiarrheeScreen>
                             MySpacing.height(12),
                              MyText.bodySmall(
                               "Faire bouillir en 5min, 1L d’eau plus 5 tomates découpées et boire le tout matin, midi, soir (3fois /mois)",
-                              overflow: TextOverflow.ellipsis,
+                              
                               muted: true,
                               textAlign: TextAlign.justify,
                             ),
@@ -159,7 +158,7 @@ class _DiarrheeScreenState extends State<DiarrheeScreen>
                             MySpacing.height(12),
                              MyText.bodySmall(
                               "mélanger 3 cuillères à soupe d’argile verte diététique plus verre d’eau tiède plus ½ citron mur et voir le tout.",
-                              overflow: TextOverflow.ellipsis,
+                           
                               muted: true,
                               textAlign: TextAlign.justify,
                             ),

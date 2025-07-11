@@ -46,11 +46,9 @@ class Layout extends StatelessWidget {
       appBar: AppBar(
         elevation: 0,
         centerTitle: true,
-        
         actions: [
           Row(
             children: [
-              
               CustomPopupMenu(
                 backdrop: true,
                 onChange: (_) {},
@@ -117,13 +115,11 @@ class Layout extends StatelessWidget {
               Positioned(top: 0, left: 0, right: 0, child: TopBar()),
             ],
           )),
-         
         ],
       ),
     );
   }
 
-  
   Widget buildAccountMenu() {
     return MyContainer.bordered(
       paddingAll: 0,
@@ -137,7 +133,7 @@ class Layout extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 MyButton(
-                     onPressed: () {
+                  onPressed: () {
                     Get.toNamed('/about');
                   },
                   tapTargetSize: MaterialTapTargetSize.shrinkWrap,
@@ -196,7 +192,7 @@ class Layout extends StatelessWidget {
             padding: MySpacing.xy(8, 8),
             child: MyButton(
               tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-             onPressed: () => _showExitConfirmationDialog(),
+              onPressed: () => _showExitConfirmationDialog(),
               borderRadiusAll: AppStyle.buttonRadius.medium,
               padding: MySpacing.xy(8, 4),
               splashColor: contentTheme.danger.withAlpha(28),
@@ -223,7 +219,7 @@ class Layout extends StatelessWidget {
     );
   }
 
-   void _showExitConfirmationDialog() {
+  void _showExitConfirmationDialog() {
     Get.dialog(
       AlertDialog(
         title: Text("Confirmation"),
@@ -231,13 +227,13 @@ class Layout extends StatelessWidget {
         actions: [
           TextButton(
             onPressed: () {
-              Get.back(); 
+              Get.back();
             },
             child: Text("Annuler"),
           ),
           TextButton(
             onPressed: () {
-              SystemNavigator.pop(); 
+              SystemNavigator.pop();
             },
             child: Text("Oui"),
           ),
